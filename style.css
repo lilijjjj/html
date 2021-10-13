@@ -1,5 +1,16 @@
 /* p {border-style: solid;} */
 
+body{
+    margin:0px;
+    padding:0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    background-color: yellow; border: 1px solid red;
+}
+
 p.thick {
     border-width: thick;
 }
@@ -46,6 +57,14 @@ div.d {
     overflow: auto;
 }
 
+div.test {
+    background-color: yellow;
+    width: 200px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 20px;
+}
+
 #target1 { 
     width: 100px;
     height: 50px;
@@ -56,4 +75,10 @@ div.d {
     width: 100px;
     height: 50px;
     background-color: lightgreen;
+}
+
+#target3 {
+    margin: 10px;
+    padding: 20px;
+    background-color: lightgreen; border: 1px solid red;
 }
