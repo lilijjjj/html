@@ -1,0 +1,59 @@
+/* p {border-style: solid;} */
+
+p.thick {
+    border-width: thick;
+}
+
+p.medium {
+    border-width: medium;
+}
+
+p.thin {
+    border-width: 1px;
+}
+
+p.green {
+    border-color: green;
+}
+div.a {
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+div.b {
+   width: 300px;
+   height: 50px;
+   background-color: green;
+   box-shadow: 20px 10px 5px #666666;
+}
+
+div.c {
+    border: 30px solid transparent;
+    width: 300px;
+    height: 50px;
+    -webkit-border-image: url(border.png) 30 30 round; /* Safari 5+ */
+    -o-border-image: url(border.png) 30 30 round; /*Opera*/
+    border-image: url(border.png) 30 30 round; /*Chrome*/
+}
+
+div.d {
+    border: 1px solid red;
+    background-color: yellow;
+    width: 100px;
+    height: auto;
+    resize: both;
+    overflow: auto;
+}
+
+#target1 { 
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
+
+#target2 {
+    width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+}
