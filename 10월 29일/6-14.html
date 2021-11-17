@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position:relative;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        #o {position:relative; width: 202px; height: 404px;}
+        #a {float: left; left:0px; top:0px; background-color: lightpink;}
+        #b {float: right; right:0px; top:0px; background-color: lightskyblue;}
+        #c {float: left; left:0px; bottom:0px; background-color: lightgreen;}
+        #d {float: right; right:0px; bottom:0px; background-color: lightgrey;}
+    </style>
+</head>
+<body>
+    <div id="o">
+        <div id="a">
+            left:0px; top:0px;
+        </div>
+        <div id ="b">
+            right:0px; top:0px;
+        </div>
+        <div id="c">
+            left:0px; bottom:0px;
+        </div>
+        <div id="d">
+            right:0px; bottom:0px;
+        </div>
+    </div>
+</body>
+</html>
